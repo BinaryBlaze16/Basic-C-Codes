@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+    int day, month, year;
+    printf("Enter date (DDMMYYYY): ");
+    scanf("%2d%2d%4d", &day, &month, &year);
+    printf("Day - %02d, Month - %02d, Year - %d\n", day, month, year);
+    return 0;
+}
