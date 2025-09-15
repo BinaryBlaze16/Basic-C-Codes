@@ -1,4 +1,3 @@
-// Program to find the nth Fibonacci number
 #include <stdio.h>
 
 int main() {
