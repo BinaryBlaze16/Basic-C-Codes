@@ -1,3 +1,4 @@
+// Program to print Fibonacci series up to n terms
 #include <stdio.h>
 int main() {
     int n;
