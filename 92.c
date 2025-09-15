@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int n;
     printf("Enter how many Fibonacci numbers you want: ");
@@ -15,7 +14,7 @@ int main() {
     } 
     else {
         printf("Fibonacci Series: ");
-        printf("%d %d ", a, b); // print first two numbers
+        printf("%d %d ", a, b);
 
         for (int i = 2; i < n; i++) {
             c = a + b;
