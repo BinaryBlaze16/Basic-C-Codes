@@ -2,15 +2,12 @@
 
 int main() {
     int n, a = 0, b = 1, c;
-
     printf("Enter a number: ");
     scanf("%d", &n);
-
     if (n == 0 || n == 1) {
         printf("%d is in the Fibonacci series.\n", n);
         return 0;
     }
-
     c = a + b;
     while (c <= n) {
         if (c == n) {
