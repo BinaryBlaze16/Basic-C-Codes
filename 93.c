@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int n, a = 0, b = 1, c;
     printf("Enter a number: ");
@@ -18,7 +17,6 @@ int main() {
         b = c;
         c = a + b;
     }
-
     printf("%d is NOT in the Fibonacci series.\n", n);
     return 0;
 }
