@@ -1,4 +1,3 @@
-// Program to check if a number is in the Fibonacci series
 #include <stdio.h>
 
 int main() {
