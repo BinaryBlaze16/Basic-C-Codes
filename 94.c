@@ -1,3 +1,4 @@
+// Program to find HCF of two numbers using Euclidean algorithm
 #include <stdio.h>
 
 int main() {
