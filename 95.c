@@ -7,17 +7,14 @@ int gcd(int a, int b) {
     }
     return a;
 }
-// Function to check if two numbers are co-prime
 int main() {
     int num1, num2;
     printf("Enter two numbers: ");
     scanf("%d %d", &num1, &num2);
-
     if (gcd(num1, num2) == 1) {
         printf("%d and %d are Co-Prime.\n", num1, num2);
     } else {
         printf("%d and %d are NOT Co-Prime.\n", num1, num2);
     }
-
     return 0;
 }
