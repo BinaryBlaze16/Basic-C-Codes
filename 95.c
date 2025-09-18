@@ -7,7 +7,7 @@ int gcd(int a, int b) {
     }
     return a;
 }
-
+// Function to check if two numbers are co-prime
 int main() {
     int num1, num2;
     printf("Enter two numbers: ");
