@@ -1,6 +1,5 @@
 // Program to print all prime numbers from 1 to 100
 #include <stdio.h>
-
 int main() {
     int i, j, isPrime;
     for (i = 2; i <= 100; i++) {
