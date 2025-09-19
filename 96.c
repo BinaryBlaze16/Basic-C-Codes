@@ -1,3 +1,4 @@
+// Program to print all prime numbers from 1 to 100
 #include <stdio.h>
 
 int main() {
