@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <math.h>
-
 int isPrime(int n) {
     if (n < 2) return 0;
     for (int i = 2; i <= sqrt(n); i++) {
@@ -9,7 +8,6 @@ int isPrime(int n) {
     }
     return 1;
 }
-
 int main() {
     int low, high;
     printf("Enter two numbers: ");
