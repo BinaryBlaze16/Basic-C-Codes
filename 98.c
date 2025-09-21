@@ -1,3 +1,4 @@
+// Program to find the next prime number after a given number
 #include <stdio.h>
 #include <stdbool.h>
 bool isPrime(int num) {
@@ -8,7 +9,6 @@ bool isPrime(int num) {
     }
     return true;
 }
-
 int main() {
     int n, next;
     printf("Enter a number: ");
