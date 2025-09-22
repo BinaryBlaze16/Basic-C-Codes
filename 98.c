@@ -1,4 +1,3 @@
-// Program to find the next prime number after a given number
 #include <stdio.h>
 #include <stdbool.h>
 bool isPrime(int num) {
