@@ -10,18 +10,15 @@ int main() {
 
     original = num;
 
-    // Count the number of digits
     for (int temp = num; temp != 0; temp /= 10) {
         n++;
     }
 
-    // Calculate sum of n-th powers of digits
     for (int temp = num; temp != 0; temp /= 10) {
         remainder = temp % 10;
         result += pow(remainder, n);
     }
 
-    // Check Armstrong condition
     if ((int)result == original)
         printf("%d is an Armstrong number.\n", original);
     else
