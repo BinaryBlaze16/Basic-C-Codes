@@ -1,3 +1,4 @@
+//Write a program to check whether a given number is a Fibonacci number or not.
 #include <stdio.h>
 int main() {
     int n, a = 0, b = 1, c;
