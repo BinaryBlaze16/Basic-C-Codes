@@ -4,9 +4,7 @@ int main() {
     int n;
     printf("Enter how many Fibonacci numbers you want: ");
     scanf("%d", &n);
-
     int a = 0, b = 1, c;
-
     if (n <= 0) {
         printf("Please enter a positive number.\n");
     } 
@@ -25,6 +23,5 @@ int main() {
         }
         printf("\n");
     }
-
     return 0;
 }
