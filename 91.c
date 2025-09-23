@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int n;
     printf("Enter the value of n: ");
@@ -21,6 +20,5 @@ int main() {
         }
         printf("Fibonacci number at position %d is: %d\n", n, b);
     }
-
     return 0;
 }
