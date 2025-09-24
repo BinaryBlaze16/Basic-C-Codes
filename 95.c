@@ -1,3 +1,4 @@
+// C program to check if two numbers are Co-Prime
 #include <stdio.h>
 int gcd(int a, int b) {
     while (b != 0) {
