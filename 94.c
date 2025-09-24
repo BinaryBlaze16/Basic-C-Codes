@@ -13,4 +13,3 @@ int main() {
     printf("HCF of %d and %d is: %d\n", a, b, hcf);
     return 0;
 }
-//Write a program to find HCF of two numbers.
